@@ -278,18 +278,12 @@ function App() {
 
       {/* İletişim satırları: dikey */}
       <div className="space-y-4">
-        <div className="flex items-center text-slate-200">
-          <Phone className="mr-4 text-blue-300" size={20} />
-          <a href="tel:08505228221" className="text-lg">0850 522 8221</a>
-        </div>
+       
         <div className="flex items-center text-slate-200">
           <Mail className="mr-4 text-blue-300" size={20} />
           <a href="mailto:info@hominum.info" className="text-lg">info@hominum.info</a>
         </div>
-        <div className="flex items-center text-slate-200">
-          <MapPin className="mr-4 text-blue-300" size={20} />
-          <span className="text-lg">19 Mayıs Mah. Turaboğlu Sok. Hamidiye Yazgan İş Merkezi No:4/2 Kadıköy/ İstanbul </span>
-        </div>
+        
       </div>
 
       {/* İsteğe bağlı CTA */}
